@@ -1,0 +1,56 @@
+{
+  "_from": "bootstrap-solarized",
+  "_id": "bootstrap-solarized@1.0.2",
+  "_inBundle": false,
+  "_integrity": "sha1-5EkDSTTVfBIpNTwdqLUYQRohglU=",
+  "_location": "/bootstrap-solarized",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "bootstrap-solarized",
+    "name": "bootstrap-solarized",
+    "escapedName": "bootstrap-solarized",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/bootstrap-solarized/-/bootstrap-solarized-1.0.2.tgz",
+  "_shasum": "e449034934d57c1229353c1da8b518411a218255",
+  "_spec": "bootstrap-solarized",
+  "_where": "/Users/tysonmorris/Code/Projects/temorris87.github.io/css",
+  "author": {
+    "name": "Adam Alpern"
+  },
+  "bugs": {
+    "url": "https://github.com/aalpern/bootstrap-solarized/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "bootstrap": ">=3.0.0"
+  },
+  "deprecated": false,
+  "description": "A pair of CSS themes for Bootstrap 3 based on Ethan Schoonover's solarized color theme. ",
+  "homepage": "https://github.com/aalpern/bootstrap-solarized",
+  "keywords": [
+    "bootstrap",
+    "css",
+    "solarized",
+    "theme"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "bootstrap-solarized",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aalpern/bootstrap-solarized.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.2"
+}

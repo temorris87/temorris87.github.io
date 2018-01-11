@@ -11,6 +11,9 @@ public static void main(String[] args) {
   
 }
 ```
+
+$$\dfrac{1}{2} = x$$
+
 # Adspiciens fervida voluit
 
 ## Exuit tremulis secus

@@ -1,5 +1,5 @@
 body {
-    background-image: url("/style/solarized.png");
+    background-image: url("{{ site.baseurl }}/style/solarized.png");
     background-repeat: repeat;
     background-attachment: fixed;
 }

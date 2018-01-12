@@ -24,6 +24,8 @@ github_username:  temorris87
 
 # Build settings
 markdown: kramdown
+kramdown:
+  math_engine: mathjax
 highlighter: rouge
 theme: minima
 plugins:

@@ -12,7 +12,7 @@ public static void main(String[] args) {
 }
 ```
 
-$$\dfrac{1}{2} = x$$
+\\[\dfrac{1}{2} = x\\]
 
 # Adspiciens fervida voluit
 

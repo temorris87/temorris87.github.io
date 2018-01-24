@@ -34,6 +34,8 @@ of executing the specification.
 1. The compiler must preserve the meaning of the program being compiled.
 2. The compiler must improve the input program in some discernable way.
 
+---
+
 ## 1.2 Compiler Structure
 
 The code for a compiler is typically modularized into either a two phase or
@@ -58,6 +60,8 @@ there are the following passes:
     1. Instruction Selection
     2. Instruction Scheduling
     3. Register Allocation
+
+---
 
 ## 1.3 Overview of Translation
 

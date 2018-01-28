@@ -9,11 +9,6 @@ title: Tyson Morris' Portfolio
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae dolor consequat erat laoreet commodo. Suspendisse potenti. Nam quis ipsum finibus ipsum mattis ultricies. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed tempus nisi sed augue porta, ac accumsan nunc tincidunt. Integer ut tellus.
 
-### Project 2
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae dolor consequat erat laoreet commodo. Suspendisse potenti. Nam quis ipsum finibus ipsum mattis ultricies. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed tempus nisi sed augue porta, ac accumsan nunc tincidunt. Integer ut tellus.
-
-### Project 3
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae dolor consequat erat laoreet commodo. Suspendisse potenti. Nam quis ipsum finibus ipsum mattis ultricies. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed tempus nisi sed augue porta, ac accumsan nunc tincidunt. Integer ut tellus.
 <hr>
 
 ## Current Classes
@@ -27,4 +22,6 @@ instruction selection, code generation, data flow analysis and code improvement
 transformations (code optimizations), parallelism, dependence analysis.
 
 ### <a href="/Classes/FormalLanguages">Formal Languages and Automata</a>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae dolor consequat erat laoreet commodo. Suspendisse potenti. Nam quis ipsum finibus ipsum mattis ultricies. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed tempus nisi sed augue porta, ac accumsan nunc tincidunt. Integer ut tellus.
+Course contents include the following: Context-free languages and Pushdown Automata,
+Turing Machines and Decidability, Hierarchies and properties of language families,
+and Computational Complexity Theory.

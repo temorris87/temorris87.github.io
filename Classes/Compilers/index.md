@@ -16,5 +16,5 @@ title: Compilers - Table of Contents
 ### 10 - Scalar Optimizations
 ### 11 - Instruction Selection
 ### 12 - Instruction Scheduling
-### 13 - Register Allocation
+### [13 - Register Allocation](/Classes/Compilers/13-Register-Allocation)
 ### [14 - ILOC Grammar](/Classes/Compilers/14-ILOC-Grammar)

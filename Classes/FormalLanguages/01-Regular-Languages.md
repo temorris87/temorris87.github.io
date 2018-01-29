@@ -104,3 +104,94 @@ operation. (Future link to proof.)
 (Future link to proof.)
 
 ### Example
+
+---
+
+## 1.3 Regular Expressions
+
+The regular operations (union, concatenation, star) can be used to build up
+expressions describing languages. These are called **regular expressions**.
+The value of a regular expression is a language.
+
+Example: \\((0\Sigma^\star)\cup(\Sigma^{\star}1)\\) consists of all strings that start
+with a \\(0\\) or end with a \\(1\\).
+
+For regular expressions, the order of operations is are: 
+\\(* \rightarrow \circ \rightarrow \cup\\)
+
+### Formal Definition of a Regular Expression
+
+We say that \\(R\\) is a **regular expression** if \\(R\\) is:
+
+1. \\(a\\) for some \\(a \in \Sigma\\)
+2. \\(\epsilon\\)
+3. \\(\emptyset\\)
+4. \\((R_1 \cup R_2)\\), where \\(R_1\\) and \\(R_2\\) are regular expressions.
+5. \\((R_1 \circ R_2)\\), where \\(R_1\\) and \\(R_2\\) are regular expressions.
+6. \\((R_1^\star)\\), where \\(R_1\\) is a regular expression.
+
+This definition is not circular because \\(R_1\\) and \\(R_2\\) are always
+smaller than \\(R\\).
+
+The following two shorthands exist:
+
+| Shorthand |              Meaning               |
+|:---------:|:----------------------------------:|
+| \\(R^+\\) |           \\(RR^\star\\)           |
+| \\(R^k\\) | \\(k\ R\\)'s concatenated together |
+
+In order to distinguish a regular expression \\(R\\) and the language that it
+describes from each other, we write \\(L(R)\\) to be the language of \\(R\\).
+
+The following key expressions are worth noting:
+
+$$
+  \begin{align}
+    R &\cup \emptyset = R \\
+    R &\circ \epsilon = R \\
+    R &\cup \epsilon\ \ \ \text{may not equal } R \\
+    R &\circ \emptyset\ \ \ \text{may not equal } R
+  \end{align}
+$$
+
+### Equivalence with Finite Automata
+
+**Theorem** - A language is regular if and only if some regular expression
+describes it. (Future link to proof.)
+
+### Generalized Nondeterministic Finite Automaton (GNFA)
+
+A GNFA is the 5-tuple 
+\\((\mathbb{Q}, \Sigma, \delta, q_{\text{start}}, q_{\text{accept}})\\) where:
+
+1. \\(\mathbb{Q}\\) is the finite set of states.
+2. \\(\Sigma\\) is the input alphabet.
+3. \\(\delta : (\mathbb{Q} - \\{q_{\text{accept}}\\}) \times
+   (\mathbb{Q} - \\{q_{\text{start}}\\}) \rightarrow R\\) is the transition.
+4. \\(q_{\text{start}}\\) is the start state.
+5. \\(q_{\text{accept}}\\) is the accept state.
+
+A GNFA allows transition arrows to be labeled by regular expressions.
+
+For convenience, GNFA's must have a special form that meets the following
+conditions:
+1. The start state has transition arrows going to every other state but no
+   arrows coming in from any other state.
+2. There is only a single accept state, and it has arrows coming in from every
+   other state but no arrows going to any other state. Furthermore, the accept
+   state is not the same as the start state.
+3. Except for the start and accept states, one arrow goes from every state to
+   every other state and also from each state to itself.
+
+A GNFA accepts a string \\(w\\) in \\(\Sigma^\star\\) if
+\\(w = w_1 w_2 \cdots w_k\\), where each \\(w_i\\) is in \\(\Sigma^\star\\) and
+a sequence of states \\(q_0, q_2, \cdots, q_k\\) exists such that:
+
+1. \\(q_0 = q_{\text{start}}\\) is the start state
+2. \\(q_k = q_{\text{accept}}\\) is the accept state, and
+3. For each \\(i\\), we have \\(w_i \in L(R_i)\\), where 
+   \\(R_i = \delta(q_{i-1}, q_i)\\); in other words, \\(R_i\\) is the expression
+   on the arrow from \\(q_{i-1}\\) to \\(q_i\\).
+
+**Theorem** - For any GNFA \\(G\\), Convert\\(G\\) is equivalent to \\(G\\).
+(Future link to proof.)

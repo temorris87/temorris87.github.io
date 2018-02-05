@@ -15,6 +15,6 @@ title: Compilers - Table of Contents
 ### 9 - Data-Flow Analysis
 ### 10 - Scalar Optimizations
 ### 11 - Instruction Selection
-### 12 - Instruction Scheduling
+### [12 - Instruction Scheduling](/Classes/Compilers/12-Instruction-Scheduling)
 ### [13 - Register Allocation](/Classes/Compilers/13-Register-Allocation)
 ### [14 - ILOC Grammar](/Classes/Compilers/14-ILOC-Grammar)

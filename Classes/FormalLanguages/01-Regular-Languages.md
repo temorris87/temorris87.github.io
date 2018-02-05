@@ -195,3 +195,39 @@ a sequence of states \\(q_0, q_2, \cdots, q_k\\) exists such that:
 
 **Theorem** - For any GNFA \\(G\\), Convert\\(G\\) is equivalent to \\(G\\).
 (Future link to proof.)
+
+---
+
+## 1.4 Nonregular Languages
+
+To understand what a finite automaton can do, it helps to understand what they
+can't do. For example, given:
+
+\\[C = \\{w | w \text{has an equal number of 0's and 1's}\\}\\]
+\\[D = \\{w | w \text{has an equal number of occurrences of 01 and 10
+substrings}\\}\\]
+
+The language \\(C\\) is nonregular, but \\(D\\) is regular. A way to determine
+whether a language is regular or not is needed, because it's not always obvious
+at first sight.
+
+### The Pumping Lemma for Regular Languages
+
+**Theorem** - Pumping Lemma: If \\(A\\) is a regular language, then there is a
+number \\(p\\) (the pumping length) where if \\(s \in A\\) of length at least p,
+then \\(s\\) may be divided into three pieces, \\(s = xyz\\), satisfying the
+following conditions:
+
+1. for each \\(i \geq 0, xy^iz \in A\\)
+2. \\(\|y\| > 0\\)
+3. \\(\|xy\| \leq p\\)
+
+Use the following steps when using the pumping lemma to prove a language is
+nonregular:
+
+1. Assume that \\(B\\) is regular in order to obtain a contradiction.
+2. Use the pumping lemma to guarantee the existence of a pumping length \\(p\\)
+   such that all strings of length \\(p\\) or greater in \\(B\\) can be pumped.
+3. Demonstrate that \\(s\\) cannot be pumped by considering all ways of dividing
+\\(s\\) into \\(x, y, \text{and} z\\). For each such division, find a value 
+\\(i\\) where \\(xy^iz \not\in B\\).

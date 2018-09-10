@@ -5,12 +5,23 @@ title: Projects
 
 ## Current Projects
 
-### Project 1
+### <a href="/Projects/AlgorithmVisualization">Algorithm Visualization</a>
+Visualizations of what happens when various sorting algorithms are run.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae dolor consequat erat laoreet commodo. Suspendisse potenti. Nam quis ipsum finibus ipsum mattis ultricies. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed tempus nisi sed augue porta, ac accumsan nunc tincidunt. Integer ut tellus.
+### <a href="/Projects/GameOfLife">Game of Life</a>
+Graphical visualization of Conway's Game of Life implemented in Python.
 
-### Project 2
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae dolor consequat erat laoreet commodo. Suspendisse potenti. Nam quis ipsum finibus ipsum mattis ultricies. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed tempus nisi sed augue porta, ac accumsan nunc tincidunt. Integer ut tellus.
+### <a href="/Projects/HackRU>Home Connect</a>"
+A simulation for controlling various electronics on Verizon's thingspace
+IOT API.
 
-### Project 3
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae dolor consequat erat laoreet commodo. Suspendisse potenti. Nam quis ipsum finibus ipsum mattis ultricies. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed tempus nisi sed augue porta, ac accumsan nunc tincidunt. Integer ut tellus.
+### <a href="/Projects/InformationBoard">Information Board</a>
+Network based application for updating a dynamic sign in Gosselin Funeral
+Home to help direct people throughout the three chapel's on the premises.
+
+###<a href="/Projects/NumberClassifier">Digit Classifier</a>
+Logistic regression based machine learning implementation for recognizing
+hand written numbers.
+
+###<a href="/Projects/OSScheduler">Operating System Scheduler</a>
+Implementation of user thread library and a scheduler.

@@ -15,4 +15,6 @@ shows off its capabilities with algorithms, it can be extended to any
 
 ## Object Oriented Design
 
-<img align="center" src="./img/av_design.svg">
+<p align="center">
+    <img src="./img/av_design.svg">
+</p>

@@ -86,7 +86,7 @@ td{
 }
 
 img.imgformat {
-    	width: 75vw;
+    	width: 75%;
     	height: auto;
     }
 

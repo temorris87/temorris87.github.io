@@ -13,6 +13,11 @@ visualizing many things, not just algorithms. Therefore while this program
 shows off its capabilities with algorithms, it can be extended to any
 2D simulation that can be thought up.
 
+Below is a video of the program running a simulation of Selection Sort. The
+yellow rectangle represents the minimum for the current pass, the orange
+rectangle represents the current value under consideration, and the green
+rectangle identifies the current target for swapping.
+
 <br>
 <div class="text-center">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/17xzVRDJ_Gk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>

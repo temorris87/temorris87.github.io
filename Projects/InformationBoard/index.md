@@ -12,7 +12,7 @@ you first enter Gosselin Funeral Home at the moment:
 
 <br/>
 <div class="row">
-    <img class="img-responsive" src="./img/information_board.png">
+    <img max-width="80%" class="img-responsive" src="./img/information_board.png">
 </div>
 <br/>
 

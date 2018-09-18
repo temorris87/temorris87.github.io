@@ -20,7 +20,9 @@ shows off its capabilities with algorithms, it can be extended to any
 The main classes in the initial implementation for sorting shown in the
 following image, where Simulation and SortSimulation are abstract classes:
 
-<img class="mx-auto d-block" src="./img/av_design.svg">
+</br>
+    <img class="img-fluid" src="./img/av_design.svg">
+</br>
 
 Success with this setup comes from the distribution of what is computed at
 each level. Simulation considers only the color scheme and the canvas with

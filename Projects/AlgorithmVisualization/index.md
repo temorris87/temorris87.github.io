@@ -13,7 +13,11 @@ visualizing many things, not just algorithms. Therefore while this program
 shows off its capabilities with algorithms, it can be extended to any
 2D simulation that can be thought up.
 
-***** Put a video of program running. *****
+<br>
+<div class="text-center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/17xzVRDJ_Gk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+<br>
 
 ## Object Oriented Design
 

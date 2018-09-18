@@ -46,7 +46,11 @@ a serialized array that is written to a file to allow persistant update and
 reuse of common locations and their addresses. The interface is shown in the
 following image:
 
-***** Place image of GUI *****
+<br/>
+<div class="row">
+    <img class="img-responsive" src="./img/information_board.png">
+</div>
+<br/>
 
 Attached to the local network is a Raspberry Pi which keeps Firefox loaded
 and in kiosk mode. A plugin was found that refreshes the page when the source

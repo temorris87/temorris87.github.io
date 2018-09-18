@@ -21,7 +21,9 @@ The main classes in the initial implementation for sorting shown in the
 following image, where Simulation and SortSimulation are abstract classes:
 
 <br>
+<div class="text-center">
     <img class="img-fluid" src="./img/av_design.svg">
+</div>
 <br>
 
 Success with this setup comes from the distribution of what is computed at

@@ -11,8 +11,8 @@ Home when I was employed there. In the image below is what can be seen when
 you first enter Gosselin Funeral Home at the moment:
 
 <br/>
-<div align="center" width="100">
-    <img src="./img/information_board.png">
+<div align="center">
+    <img width="200" src="./img/information_board.png">
 </div>
 <br/>
 

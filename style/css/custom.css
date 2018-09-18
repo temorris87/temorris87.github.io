@@ -85,11 +85,6 @@ td{
   margin-bottom: 20px;
 }
 
-img.imgformat {
-    	width: 75vw;
-    	height: auto;
-    }
-
 @media (min-width: 1200px) {
     .container{
         max-width: 970px;

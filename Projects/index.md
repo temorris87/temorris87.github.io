@@ -25,6 +25,6 @@ heuristics for the backend of a compiler. A comparison of how each of the
 algorithms perform for different metrics is made.
 
 ### <a href="/Projects/InformationBoard">Information Board</a>
-Java Design and implementation of a distributed system that provides the
+Java - Design and implementation of a distributed system that provides the
 ability for easier communication with visitor's to Gosselin Funeral Home in
 terms of services on the premises.

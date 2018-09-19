@@ -3,6 +3,8 @@ layout: default
 title: Algorithm Visualization
 ---
 
+[Github](https://github.com/temorris87/AlgorithmVisualization)
+
 ## Introduction
 
 Algorithm Visualization is a program implemented in JavaFX that was created

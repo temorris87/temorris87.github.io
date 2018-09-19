@@ -48,7 +48,7 @@ following image:
 
 <br/>
 <div class="row">
-    <img class="img-responsive" src="./img/information_board.png">
+    <img class="img-responsive" src="./img/information_board_gui.png">
 </div>
 <br/>
 

@@ -17,10 +17,10 @@ A* expands nodes based on the equation:
 
 $$f(x) = c(x) + h(x)$$
 
-where $c(x)$ is the cost of traveling from one node to another and $h(x)$ is
-the heuristic cost that under estimates the distance to the goal node. In the
-case of this implementation the heuristic function was taken to be euclidian
-distance:
+where \\(c(x)\\) is the cost of traveling from one node to another and 
+\\(h(x)\\) is the heuristic cost that under estimates the distance to the goal
+node. In the case of this implementation the heuristic function was taken to
+be euclidian distance:
 
 $$h(x) = \sqrt{x^2 + y^2}$$
 

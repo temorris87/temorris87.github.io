@@ -29,3 +29,11 @@ In order to help with any Pygame based questions that popped up in the
 development process, I did the Game of Life graphics in Pygame. Due to the
 nature of Game of Life, there was no need for collision detection, so only a
 sub part of the entire API was used.
+
+## Simulation
+
+Each run of the simulation is different. Some runs of the program die out in
+a few seconds, where others have run for 20 or so minutes. In the center of the
+board there is a space where spaces are randomly made alive. The one in the
+video is one of my favorite runs because it was symmetric throughout the whole
+run.

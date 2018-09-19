@@ -6,22 +6,20 @@ title: Projects
 ## Current Projects
 
 ### <a href="/Projects/AlgorithmVisualization">Algorithm Visualization</a>
-Visualizations of what happens when various sorting algorithms are run.
+An extendable object oriented framework in Java for visualizing different
+types of simulations. Examples used are sorting algorithms.
 
-### <a href="/Projects/GameOfLife">Game of Life</a>
-Graphical visualization of Conway's Game of Life implemented in Python.
+### <a href="/Projects/GameOfLife">Conway's Game of Life</a>
+Two-dimensional simulation of Conway's Game of Life in Python. Utilizes Pygame
+for graphics and demonstrates how to use test cases with Python's test
+framework for obtaining 100% code coverage.
 
-### <a href="/Projects/HackRU>Home Connect</a>"
-A simulation for controlling various electronics on Verizon's thingspace
-IOT API.
+### <a href="/Projects/RegisterAllocation">Register Allocation</a>
+Implementation of top down and bottom up register allocation heuristics for
+the backend of a compiler. A comparison of how each of the algorithms perform
+for different metrics is made.
 
 ### <a href="/Projects/InformationBoard">Information Board</a>
-Network based application for updating a dynamic sign in Gosselin Funeral
-Home to help direct people throughout the three chapel's on the premises.
-
-###<a href="/Projects/NumberClassifier">Digit Classifier</a>
-Logistic regression based machine learning implementation for recognizing
-hand written numbers.
-
-###<a href="/Projects/OSScheduler">Operating System Scheduler</a>
-Implementation of user thread library and a scheduler.
+Design and implementation of a distributed system that provides the ability
+for easier communication with visitor's to Gosselin Funeral Home in terms of
+services on the premises.

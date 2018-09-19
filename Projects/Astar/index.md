@@ -3,6 +3,8 @@ layout: default
 title: A*
 ---
 
+[GitHub](https://github.com/temorris87/GraphSearch)
+
 ## Introduction
 
 This project simply implements the A* search algorithm. All of my big C and C++

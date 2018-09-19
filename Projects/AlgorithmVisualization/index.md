@@ -3,7 +3,7 @@ layout: default
 title: Algorithm Visualization
 ---
 
-[Github](https://github.com/temorris87/AlgorithmVisualization)
+[GitHub](https://github.com/temorris87/AlgorithmVisualization)
 
 ## Introduction
 

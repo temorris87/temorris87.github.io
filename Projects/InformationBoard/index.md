@@ -3,6 +3,8 @@ layout: default
 title: Information Board
 ---
 
+[GitHub](https://github.com/temorris87/InformationBoard)
+
 ## Introduction
 
 The Information Board project is one that was born for the idea of making it

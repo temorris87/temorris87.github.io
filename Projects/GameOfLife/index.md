@@ -3,6 +3,8 @@ layout: default
 title: Conway's Game of Life
 ---
 
+[GitHub](https://github.com/temorris87/GameOfLife)
+
 ## Introduction
 
 This program set out to simulate 

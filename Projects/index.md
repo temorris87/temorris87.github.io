@@ -5,6 +5,11 @@ title: Projects
 
 ## Current Projects
 
+### <a href="/Projects/Astar">A\*</a>
+C++ - Implementation of A* using euclidian distance for the heuristic function.
+Design is reusable for many situations with two public methods available
+for adding nodes and edges to the graph.
+
 ### <a href="/Projects/AlgorithmVisualization">Algorithm Visualization</a>
 An extendable object oriented framework in Java for visualizing different
 types of simulations. Examples used are sorting algorithms.

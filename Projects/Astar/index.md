@@ -22,7 +22,7 @@ the heuristic cost that under estimates the distance to the goal node. In the
 case of this implementation the heuristic function was taken to be euclidian
 distance:
 
-$$h(x) = sqrt{x^2 + y^2}$$
+$$h(x) = \sqrt{x^2 + y^2}$$
 
 This function is not a strong enough heuristic to yield the shortest path.
 

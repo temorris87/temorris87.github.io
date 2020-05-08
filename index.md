@@ -33,18 +33,3 @@ HTML/CSS/Javascript - Implementation of a random sudoku board with the ability
 to solve it and be informed if the solution was found.
 
 <hr>
-
-## Current Classes
-
-### <a href="/Classes/Compilers">Compilers</a>
-Introduction to compiler construction. Course contents include the following: Formal 
-translation of programming languages, program syntax and semantics. Finite state 
-recognizers and regular grammars. Context-free parsing techniques such as LL(k) and LR(k).
-Attribute grammars, syntax-directed translation schema, type checking, register allocation,
-instruction selection, code generation, data flow analysis and code improvement
-transformations (code optimizations), parallelism, dependence analysis.
-
-### <a href="/Classes/FormalLanguages">Formal Languages and Automata</a>
-Course contents include the following: Context-free languages and Pushdown Automata,
-Turing Machines and Decidability, Hierarchies and properties of language families,
-and Computational Complexity Theory.

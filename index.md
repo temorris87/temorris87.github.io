@@ -31,5 +31,3 @@ terms of services on the premises.
 ### <a href="/Projects/Sudoku">Sudoku</a>
 HTML/CSS/Javascript - Implementation of a random sudoku board with the ability
 to solve it and be informed if the solution was found.
-
-<hr>
